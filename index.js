@@ -405,11 +405,12 @@
     detailImage.src = hotspot.imgSrc;
     detailImage.classList.add("info-hotspot-detailImage");
     detailWrapper.appendChild(detailImage);
+    detailWrapper.classList.add("detailWrapper");
 
     // Place header and text into wrapper element.
     wrapper.appendChild(header);
     wrapper.appendChild(text);
-    wrapper.appendChild(detailImage);
+    wrapper.appendChild(detailWrapper);
 
     // Create a modal for the hotspot content to appear on mobile mode.
     var modal = document.createElement("div");
