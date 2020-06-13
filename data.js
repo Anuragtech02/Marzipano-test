@@ -36,7 +36,14 @@ var APP_DATA = {
           "target": "1-bryan-goff-iuyhxaia8ea-unsplash"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -0.28282141978176867,
+          "pitch": -0.3488148113704739,
+          "title": "Click me",
+          "text": "You can click the arrow button to move to another page"
+        }
+      ]
     },
     {
       "id": "1-bryan-goff-iuyhxaia8ea-unsplash",
